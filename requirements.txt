@@ -1,10 +1,10 @@
 streamlit==1.25.0
 streamlit-option-menu==0.3.6
-gtts==2.3.1
-paddleocr==2.6.1.3
-paddle-bfloat==0.1.7
-paddlepaddle==2.4.1
-x2paddle==1.4.0
+gtts
+paddleocr
+paddle-bfloat
+paddlepaddle
+x2paddle
 opencv-contrib-python
 opencv-python
 

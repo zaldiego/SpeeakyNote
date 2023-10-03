@@ -14,7 +14,7 @@ def ocr_transform(files, lang_voice):
     list_ocr = []
 
     # Sort the image files based on their names
-    files.sort(key=lambda x: int(x.split('_')[1]))
+    #files.sort(key=lambda x: int(x.split('_')[1])) Este sort se debe mejorar, da error en el programa a la hora de iterar el orden de los archivos
 
     # Iterate over all selected files
     for image_path in files:

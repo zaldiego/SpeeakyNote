@@ -13,6 +13,9 @@ def ocr_transform(files, lang_voice):
     # List to store the extracted text
     list_ocr = []
 
+    # Sort the image files based on their names
+    files.sort(key=lambda x: int(x.split('_')[1]))
+
     # Iterate over all selected files
     for image_path in files:
         result = reader.ocr(image_path)
